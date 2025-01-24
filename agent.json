@@ -1,0 +1,12 @@
+{
+  "displayName": "nyuukan-own-agent",
+  "defaultLanguageCode": "ja",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 119463259875,
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "startPlaybook": "入管独自エージェント"
+}

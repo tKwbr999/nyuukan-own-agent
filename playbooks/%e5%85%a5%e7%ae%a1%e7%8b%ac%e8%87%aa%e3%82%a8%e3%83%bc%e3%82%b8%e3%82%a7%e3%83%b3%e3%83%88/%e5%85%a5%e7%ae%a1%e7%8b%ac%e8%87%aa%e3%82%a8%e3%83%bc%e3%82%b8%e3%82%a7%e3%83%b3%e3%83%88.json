@@ -1,0 +1,31 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "入管独自エージェント",
+  "goal": "日本に入国したてで入管について不明な外国人が入管方法や役所での手続きがわかるようにする",
+  "tokenCount": 100,
+  "ragSettings": {
+    "enableRag": true,
+    "summaryAnswerOverrideType": "NON_BLOCKING_ANSWER"
+  },
+  "instruction": {
+    "steps": [ {
+      "text": "現在の状況を確認する"
+    }, {
+      "text": "話せる言語を特定する"
+    }, {
+      "text": "入国に関して所持している書類を確認する"
+    }, {
+      "text": "入管する方法をステップバイステップで教える"
+    }, {
+      "text": "現状で最優先となる入管ステップについておすすめする。"
+    }, {
+      "text": "所持している書類の種類やその状況により入管の完了/未完了を測定する"
+    } ]
+  },
+  "codeBlock": {
+  
+  },
+  "speechAdaptationSettings": {
+  
+  }
+}
